@@ -1,0 +1,1029 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.big-box {
+  background-image: url(./assets/Hero.jpg);
+}
+.big-box .hero-section {
+  padding-top: 94px;
+  padding-bottom: 370px;
+}
+.big-box .hero-section .discover-box {
+  width: 61.52%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  padding-left: 191px;
+}
+.big-box .hero-section .discover-box .first-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+  width: 69.55%;
+}
+.big-box .hero-section .discover-box .more-info {
+  width: 61.54%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.big-box .hero-section .discover-box .input-button {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  cursor: pointer;
+}
+.big-box .hero-section .discover-box .input-button div {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+  width: 297px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  border-bottom: 2px solid #bfc0c5;
+}
+.big-box .hero-section .discover-box .input-button button {
+  width: 171px;
+  background-color: #1b7dff;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  padding: 15px 39px;
+  border: 0;
+  cursor: pointer;
+}
+.big-box header {
+  display: flex;
+  justify-content: center;
+}
+.big-box header .navigation {
+  width: 1078px;
+  padding-top: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+.big-box header .navigation .navlinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.big-box header .navigation .navlinks a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.big-box header .navigation div {
+  width: 490px;
+}
+
+.second-part .card-section {
+  max-width: 87.63%;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -226px;
+}
+.second-part .card-section .container {
+  width: 84.15%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 98px;
+  padding-bottom: 100px;
+}
+.second-part .card-section .container .card-header {
+  font-family: Lato;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 42px;
+  color: #102746;
+  width: 21.39%;
+  margin-bottom: 120px;
+}
+.second-part .card-section .container .card-boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 260px;
+}
+.second-part .card-section .container .card-boxes .card-one {
+  width: 317px;
+  border-radius: 0px;
+}
+.second-part .card-section .container .card-boxes .card-one img {
+  width: 66px;
+  border-radius: 0px;
+  margin-bottom: 37px;
+}
+.second-part .card-section .container .card-boxes .card-one div {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 26px;
+}
+.second-part .card-section .container .card-boxes .card-one text {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.second-part .card-section .container .card-boxes .card-one p {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #006dfe;
+}
+.second-part .card-section .container .card-boxes .card-one p img {
+  width: 33px;
+  border-radius: 0px;
+}
+.second-part .card-section .container .card-boxes .card-two {
+  width: 317px;
+  border-radius: 0px;
+}
+.second-part .card-section .container .card-boxes .card-two img {
+  width: 65px;
+  left: 561px;
+  top: 996px;
+  border-radius: 0px;
+  margin-bottom: 37px;
+}
+.second-part .card-section .container .card-boxes .card-two div {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 26px;
+}
+.second-part .card-section .container .card-boxes .card-two text {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.second-part .card-section .container .card-boxes .card-two p {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #006dfe;
+}
+.second-part .card-section .container .card-boxes .card-two p img {
+  width: 33px;
+  border-radius: 0px;
+}
+.second-part .card-section .container .card-boxes .card-three {
+  width: 317px;
+  border-radius: 0px;
+}
+.second-part .card-section .container .card-boxes .card-three img {
+  height: 58px;
+  width: 58px;
+  margin-bottom: 37px;
+  border-radius: 0px;
+}
+.second-part .card-section .container .card-boxes .card-three div {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 26px;
+}
+.second-part .card-section .container .card-boxes .card-three text {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.second-part .card-section .container .card-boxes .card-three p {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #006dfe;
+}
+.second-part .card-section .container .card-boxes .card-three p img {
+  height: 8px;
+  width: 33px;
+  border-radius: 0px;
+}
+.second-part .get-inspired-section {
+  width: 1264px;
+  margin-left: 88px;
+  margin-right: 88px;
+  margin-top: 136px;
+}
+.second-part .get-inspired-header {
+  width: 457px;
+  font-family: Lato;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #102746;
+  border-bottom: 2px solid #006dfe;
+  margin-top: 7px;
+}
+.second-part .get-inspired-view {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #006dfe;
+  margin-top: 14px;
+}
+.second-part .get-inspired-view img {
+  width: 33px;
+  height: 8px;
+  margin-top: 7px;
+}
+.second-part .get-inspired-pic {
+  display: flex;
+  justify-content: space-between;
+}
+.second-part .get-inspired-pics {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+.second-part .prefecture-neighborhood-section {
+  margin-right: 84px;
+  margin-left: 85px;
+  margin-top: 131px;
+}
+.second-part .prefecture-text-img > img {
+  width: 597;
+  margin-right: 758px;
+  margin-left: 85px;
+}
+.second-part .text h1 {
+  width: 28.01%;
+  margin-bottom: 85px;
+  margin-right: 293px;
+  margin-left: 790px;
+  margin-top: -331px;
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #102746;
+}
+.second-part .text h2 {
+  margin-right: 131px;
+  margin-left: 759px;
+  margin-top: 85px;
+  width: 40.83%;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #102746;
+}
+.second-part .text h3 {
+  width: 11.32%;
+  margin-top: 58px;
+  margin-left: 791px;
+  margin-right: 591px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: right;
+  font-family: Lato;
+  color: #006dfe;
+}
+.second-part .text h3 img {
+  width: 33px;
+  margin-top: 66px;
+}
+.second-part .neighborhood-text-img > img {
+  margin-top: 134px;
+  margin-right: 84px;
+  width: 597px;
+  margin-left: 759px;
+}
+.second-part .text-neighborhood h4 {
+  width: 357px;
+  margin-top: -316px;
+  margin-left: 132px;
+  margin-right: 132px;
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #102746;
+}
+.second-part h5 {
+  width: 519px;
+  margin-top: 45px;
+  margin-right: 97px;
+  margin-left: 132px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #102746;
+}
+.second-part h6 {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #006dfe;
+  margin-top: 94px;
+  margin-left: 132px;
+  margin-right: 437px;
+}
+.second-part h6 img {
+  margin-top: 102px;
+  margin-bottom: 160px;
+  margin-left: 27px;
+  margin-right: 377px;
+}
+.second-part .header {
+  width: 369px;
+  margin-left: 85px;
+  margin-right: 986px;
+  margin-top: 152px;
+  font-family: Lato;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #102746;
+  border-bottom: 2px Solid #006dfe;
+}
+.second-part .cities-japan {
+  display: flex;
+  flex-direction: column;
+}
+.second-part .main-cities {
+  display: flex;
+}
+.second-part .nagoya {
+  width: 392px;
+  margin-left: 81px;
+  margin-top: 54px;
+}
+.second-part .nagoya .image-wrapper {
+  width: 386px;
+  margin-top: 54px;
+  margin-bottom: 45px;
+  position: relative;
+}
+.second-part .nagoya .image-wrapper .image-info {
+  bottom: 0px;
+  display: flex;
+  gap: 157px;
+  margin-bottom: 3px;
+  position: absolute;
+  background-color: rgba(21, 24, 36, 0.6);
+}
+.second-part .nagoya .image-wrapper .image-info .nagoya-text {
+  font-family: Lato;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.second-part .nagoya .image-wrapper .image-info .nagoya-text-signs {
+  display: flex;
+  gap: 14px;
+}
+.second-part .nagoya .image-wrapper .image-info .nagoya-text-signs p {
+  font-family: Lato;
+  display: flex;
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.second-part .nagoya .image-wrapper .image-info .nagoya-text-signs img {
+  padding-bottom: 16px;
+  margin-right: 20px;
+}
+.second-part .niigata {
+  width: 392px;
+  margin-left: 81px;
+  margin-top: 54px;
+}
+.second-part .niigata .image-wrapper-niigata {
+  width: 386px;
+  margin-top: 54px;
+  margin-bottom: 45px;
+  position: relative;
+}
+.second-part .niigata .image-wrapper-niigata .image-info-niigata {
+  bottom: 0px;
+  display: flex;
+  gap: 157px;
+  margin-bottom: 3px;
+  position: absolute;
+  background-color: rgba(21, 24, 36, 0.6);
+}
+.second-part .niigata .image-wrapper-niigata .image-info-niigata .niigata-text {
+  font-family: Lato;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.second-part .niigata .image-wrapper-niigata .image-info-niigata .niigata-text-signs {
+  display: flex;
+  gap: 14px;
+}
+.second-part .niigata .image-wrapper-niigata .image-info-niigata .niigata-text-signs p {
+  font-family: Lato;
+  display: flex;
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.second-part .niigata .image-wrapper-niigata .image-info-niigata .niigata-text-signs img {
+  padding-bottom: 16px;
+  margin-right: 21px;
+}
+.second-part .osaka {
+  width: 392px;
+  margin-left: 81px;
+  margin-top: 54px;
+}
+.second-part .osaka .image-wrapper-osaka {
+  width: 386px;
+  margin-top: 54px;
+  margin-bottom: 45px;
+  position: relative;
+}
+.second-part .osaka .image-wrapper-osaka .image-info-osaka {
+  bottom: 0px;
+  display: flex;
+  gap: 157px;
+  margin-bottom: 3px;
+  position: absolute;
+  background-color: rgba(21, 24, 36, 0.6);
+}
+.second-part .osaka .image-wrapper-osaka .image-info-osaka .osaka-text {
+  font-family: Lato;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.second-part .osaka .image-wrapper-osaka .image-info-osaka .osaka-text-signs {
+  display: flex;
+  gap: 14px;
+}
+.second-part .osaka .image-wrapper-osaka .image-info-osaka .osaka-text-signs p {
+  font-family: Lato;
+  display: flex;
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.second-part .osaka .image-wrapper-osaka .image-info-osaka .osaka-text-signs img {
+  padding-bottom: 16px;
+  margin-right: 26.9px;
+}
+.second-part .other-cities {
+  display: flex;
+}
+.second-part .saitama {
+  width: 392px;
+  margin-left: 81px;
+  margin-top: 54px;
+}
+.second-part .saitama .image-wrapper-saitama {
+  width: 386px;
+  margin-top: 54px;
+  margin-bottom: 45px;
+  position: relative;
+}
+.second-part .saitama .image-wrapper-saitama .image-info-saitama {
+  bottom: 0px;
+  display: flex;
+  gap: 157px;
+  margin-bottom: 4px;
+  position: absolute;
+  background-color: rgba(21, 24, 36, 0.6);
+}
+.second-part .saitama .image-wrapper-saitama .image-info-saitama .saitama-text {
+  font-family: Lato;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.second-part .saitama .image-wrapper-saitama .image-info-saitama .saitama-text-signs {
+  display: flex;
+  gap: 14px;
+}
+.second-part .saitama .image-wrapper-saitama .image-info-saitama .saitama-text-signs p {
+  font-family: Lato;
+  display: flex;
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.second-part .saitama .image-wrapper-saitama .image-info-saitama .saitama-text-signs img {
+  padding-bottom: 16px;
+  margin-right: 18px;
+}
+.second-part .ueno {
+  width: 392px;
+  margin-left: 81px;
+  margin-top: 54px;
+}
+.second-part .ueno .image-wrapper-ueno {
+  width: 386px;
+  margin-top: 54px;
+  margin-bottom: 45px;
+  position: relative;
+}
+.second-part .ueno .image-wrapper-ueno .image-info-ueno {
+  bottom: 0px;
+  display: flex;
+  gap: 157px;
+  margin-bottom: 4px;
+  position: absolute;
+  background-color: rgba(21, 24, 36, 0.6);
+}
+.second-part .ueno .image-wrapper-ueno .image-info-ueno .ueno-text {
+  font-family: Lato;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.second-part .ueno .image-wrapper-ueno .image-info-ueno .ueno-text-signs {
+  display: flex;
+  gap: 14px;
+}
+.second-part .ueno .image-wrapper-ueno .image-info-ueno .ueno-text-signs p {
+  font-family: Lato;
+  display: flex;
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.second-part .ueno .image-wrapper-ueno .image-info-ueno .ueno-text-signs img {
+  padding-bottom: 16px;
+  margin-right: 24px;
+}
+.second-part .shibuya {
+  width: 392px;
+  margin-left: 81px;
+  margin-top: 54px;
+}
+.second-part .shibuya .image-wrapper-shibuya {
+  width: 386px;
+  margin-top: 54px;
+  margin-bottom: 45px;
+  position: relative;
+}
+.second-part .shibuya .image-wrapper-shibuya .image-info-shibuya {
+  bottom: 0px;
+  display: flex;
+  gap: 157px;
+  margin-bottom: 4px;
+  position: absolute;
+  background-color: rgba(21, 24, 36, 0.6);
+}
+.second-part .shibuya .image-wrapper-shibuya .image-info-shibuya .shibuya-text {
+  font-family: Lato;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.second-part .shibuya .image-wrapper-shibuya .image-info-shibuya .shibuya-text-signs {
+  display: flex;
+  gap: 14px;
+}
+.second-part .shibuya .image-wrapper-shibuya .image-info-shibuya .shibuya-text-signs p {
+  font-family: Lato;
+  display: flex;
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.second-part .shibuya .image-wrapper-shibuya .image-info-shibuya .shibuya-text-signs img {
+  padding-bottom: 16px;
+  margin-right: 19px;
+}
+.second-part text {
+  width: 391px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #102746;
+}
+.second-part div button {
+  width: 118px;
+  margin-top: 31px;
+  background-color: #006dfe;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  padding: 12px 19px;
+  color: #ffffff;
+  border: 0;
+  cursor: pointer;
+}
+
+.video-section {
+  margin-top: 144px;
+}
+.video-section img {
+  width: 100%;
+}
+
+footer {
+  background-color: #0e1d28;
+}
+footer .inside-footer {
+  padding: 118px 167px 118px 194px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .inside-footer img {
+  align-self: flex-start;
+}
+footer .inside-footer .menu-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 139.5px;
+}
+footer .inside-footer .menu-footer .footer-columns {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+footer .inside-footer .menu-footer .footer-columns a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media (min-width: 956px) and (max-width: 1425px) {
+  .second-part .cities-japan {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .second-part .main-cities {
+    flex-direction: column;
+  }
+  .second-part .other-cities {
+    flex-direction: column;
+  }
+}
+@media (min-width: 551px) and (max-width: 955px) {
+  .second-part .cities-japan {
+    justify-content: center;
+    align-items: center;
+  }
+  .second-part .main-cities {
+    flex-direction: column;
+  }
+  .second-part .other-cities {
+    flex-direction: column;
+  }
+}
+@media (min-width: 320px) and (max-width: 550px) {
+  .big-box header .navigation .navlinks {
+    display: none;
+  }
+  .second-part .header {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Lato;
+    font-size: 20px;
+  }
+  .second-part .card-section .container {
+    width: auto;
+  }
+  .second-part .card-header {
+    width: auto;
+  }
+  .second-part .card-boxes {
+    width: auto;
+  }
+  .second-part .card-one {
+    width: auto;
+  }
+  .second-part .card-one img {
+    width: auto;
+  }
+  .second-part .card-one div {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 26px;
+  }
+  .second-part .card-one p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .second-part .card-two {
+    width: auto;
+  }
+  .second-part .card-two img {
+    width: auto;
+  }
+  .second-part .card-two div {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 26px;
+  }
+  .second-part .card-two p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .second-part .card-three {
+    width: auto;
+  }
+  .second-part .card-three img {
+    width: auto;
+  }
+  .second-part .card-three div {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 26px;
+  }
+  .second-part .card-three p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .second-part .get-inspired-section {
+    width: auto;
+    margin-top: auto;
+  }
+  .second-part .get-inspired-header {
+    width: auto;
+  }
+  .second-part .get-inspired-pic {
+    gap: 10px;
+    flex-direction: column;
+  }
+  .second-part .get-inspired-pics {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .second-part .cities-japan {
+    justify-content: center;
+    align-items: center;
+  }
+  .second-part .cities-japan img {
+    width: 300px;
+  }
+  .second-part .cities-japan p img {
+    width: 15px;
+  }
+  .second-part .main-cities {
+    flex-direction: column;
+  }
+  .second-part .other-cities {
+    flex-direction: column;
+  }
+  .second-part .nagoya {
+    max-width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .second-part .nagoya .image-wrapper .image-info {
+    bottom: 0px;
+    display: flex;
+    gap: 69.5px;
+    margin-bottom: 4.5px;
+    position: absolute;
+    background-color: rgba(21, 24, 36, 0.6);
+  }
+  .second-part .niigata {
+    max-width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .second-part .niigata .image-wrapper-niigata .image-info-niigata {
+    bottom: 0px;
+    display: flex;
+    gap: 69.5px;
+    margin-bottom: 4.5px;
+    position: absolute;
+    background-color: rgba(21, 24, 36, 0.6);
+  }
+  .second-part .osaka {
+    max-width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .second-part .osaka .image-wrapper-osaka .image-info-osaka {
+    bottom: 0px;
+    display: flex;
+    gap: 69.5px;
+    margin-bottom: 4.5px;
+    position: absolute;
+    background-color: rgba(21, 24, 36, 0.6);
+  }
+  .second-part .saitama {
+    max-width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .second-part .saitama .image-wrapper-saitama .image-info-saitama {
+    bottom: 0px;
+    display: flex;
+    gap: 69.5px;
+    margin-bottom: 4.5px;
+    position: absolute;
+    background-color: rgba(21, 24, 36, 0.6);
+  }
+  .second-part .ueno {
+    max-width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .second-part .ueno .image-wrapper-ueno .image-info-ueno {
+    bottom: 0px;
+    display: flex;
+    gap: 69.5px;
+    margin-bottom: 4.5px;
+    position: absolute;
+    background-color: rgba(21, 24, 36, 0.6);
+  }
+  .second-part .shibuya {
+    max-width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .second-part .shibuya .image-wrapper-shibuya .image-info-shibuya {
+    bottom: 0px;
+    display: flex;
+    gap: 69.5px;
+    margin-bottom: 4.5px;
+    position: absolute;
+    background-color: rgba(21, 24, 36, 0.6);
+  }
+  .big-box .hero-section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+  }
+  .big-box .hero-section .discover-box {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .big-box .hero-section .discover-box .input-button {
+    flex-direction: column;
+  }
+  footer .inside-footer {
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px 0 0 0;
+  }
+  footer .inside-footer .menu-footer {
+    gap: 0px;
+    padding: 20px;
+  }
+  footer .inside-footer img {
+    align-self: center;
+  }
+}/*# sourceMappingURL=landing.css.map */

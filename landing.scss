@@ -1,0 +1,1020 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.big-box {
+  background-image: url(./assets/Hero.jpg);
+  .hero-section {
+    padding-top: 94px;
+    padding-bottom: 370px;
+    .discover-box {
+      width: 61.52%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 30px;
+      padding-left: 191px;
+      .first-text {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 60px;
+        color: #ffffff;
+        width: 69.55%;
+      }
+      .more-info {
+        width: 61.54%;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+      }
+      .input-button {
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+        cursor: pointer;
+        div {
+          display: flex;
+          gap: 23px;
+          align-items: center;
+          width: 297px;
+          font-family: "Lato";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 24px;
+          color: #ffffff;
+          border-bottom: 2px solid #bfc0c5;
+        }
+        button {
+          width: 171px;
+          background-color: #1b7dff;
+          font-family: "Lato";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 29px;
+          color: #ffffff;
+          padding: 15px 39px;
+          border: 0;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    .navigation {
+      width: 1078px;
+      padding-top: 18px;
+      display: flex;
+      justify-content: space-between;
+      .navlinks {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a {
+          font-family: "Lato";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 24px;
+          text-decoration: none;
+          color: #ffffff;
+        }
+      }
+      div {
+        width: 490px;
+      }
+    }
+  }
+}
+.second-part {
+  .card-section {
+    max-width: 87.63%;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -226px;
+    .container {
+      width: 84.15%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 98px;
+      padding-bottom: 100px;
+      .card-header {
+        font-family: Lato;
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 42px;
+        color: #102746;
+        width: 21.39%;
+        margin-bottom: 120px;
+      }
+      .card-boxes {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 260px;
+        .card-one {
+          width: 317px;
+
+          border-radius: 0px;
+          img {
+            width: 66px;
+
+            border-radius: 0px;
+            margin-bottom: 37px;
+          }
+          div {
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            margin-bottom: 26px;
+          }
+          text {
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+          }
+          p {
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #006dfe;
+            img {
+              width: 33px;
+
+              border-radius: 0px;
+            }
+          }
+        }
+        .card-two {
+          width: 317px;
+
+          border-radius: 0px;
+          img {
+            width: 65px;
+            left: 561px;
+            top: 996px;
+            border-radius: 0px;
+            margin-bottom: 37px;
+          }
+          div {
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            margin-bottom: 26px;
+          }
+          text {
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+          }
+          p {
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #006dfe;
+            img {
+              width: 33px;
+
+              border-radius: 0px;
+            }
+          }
+        }
+        .card-three {
+          width: 317px;
+
+          border-radius: 0px;
+          img {
+            height: 58px;
+            width: 58px;
+            margin-bottom: 37px;
+            border-radius: 0px;
+          }
+          div {
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            margin-bottom: 26px;
+          }
+          text {
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+          }
+          p {
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #006dfe;
+            img {
+              height: 8px;
+              width: 33px;
+
+              border-radius: 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .get-inspired-section {
+    width: 1264px;
+    margin-left: 88px;
+    margin-right: 88px;
+    margin-top: 136px;
+  }
+  .get-inspired-header {
+    width: 457px;
+    font-family: Lato;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #102746;
+    border-bottom: 2px solid #006dfe;
+    margin-top: 7px;
+  }
+  .get-inspired-view {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #006dfe;
+    margin-top: 14px;
+    img {
+      width: 33px;
+      height: 8px;
+      margin-top: 7px;
+    }
+  }
+
+  .get-inspired-pic {
+    display: flex;
+    justify-content: space-between;
+  }
+  .get-inspired-pics {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+  }
+  .prefecture-neighborhood-section {
+    margin-right: 84px;
+    margin-left: 85px;
+    margin-top: 131px;
+  }
+
+  .prefecture-text-img > img {
+    width: 597;
+    margin-right: 758px;
+    margin-left: 85px;
+  }
+  .text h1 {
+    width: 28.01%;
+    margin-bottom: 85px;
+    margin-right: 293px;
+    margin-left: 790px;
+    margin-top: -331px;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #102746;
+  }
+  .text h2 {
+    margin-right: 131px;
+    margin-left: 759px;
+    margin-top: 85px;
+    width: 40.83%;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #102746;
+  }
+  .text h3 {
+    width: 11.32%;
+    margin-top: 58px;
+    margin-left: 791px;
+    margin-right: 591px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: right;
+    font-family: Lato;
+    color: #006dfe;
+  }
+  .text h3 img {
+    width: 33px;
+    margin-top: 66px;
+  }
+  .neighborhood-text-img > img {
+    margin-top: 134px;
+    margin-right: 84px;
+    width: 597px;
+    margin-left: 759px;
+  }
+  .text-neighborhood h4 {
+    width: 357px;
+    margin-top: -316px;
+    margin-left: 132px;
+    margin-right: 132px;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #102746;
+  }
+  h5 {
+    width: 519px;
+    margin-top: 45px;
+    margin-right: 97px;
+    margin-left: 132px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #102746;
+  }
+  h6 {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #006dfe;
+    margin-top: 94px;
+    margin-left: 132px;
+    margin-right: 437px;
+  }
+  h6 img {
+    margin-top: 102px;
+    margin-bottom: 160px;
+    margin-left: 27px;
+    margin-right: 377px;
+  }
+  .header {
+    width: 369px;
+    margin-left: 85px;
+    margin-right: 986px;
+    margin-top: 152px;
+    font-family: Lato;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #102746;
+    border-bottom: 2px Solid #006dfe;
+  }
+  .cities-japan {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-cities {
+    display: flex;
+  }
+  .nagoya {
+    width: 392px;
+    margin-left: 81px;
+    margin-top: 54px;
+
+    .image-wrapper {
+      width: 386px;
+      margin-top: 54px;
+      margin-bottom: 45px;
+      position: relative;
+
+      .image-info {
+        bottom: 0px;
+        display: flex;
+        gap: 157px;
+        margin-bottom: 3px;
+        position: absolute;
+        background-color: rgba(21, 24, 36, 0.6);
+        .nagoya-text {
+          font-family: Lato;
+          padding-top: 16px;
+          padding-bottom: 15px;
+          margin-left: 25px;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0px;
+          text-align: left;
+          text-decoration: none;
+          color: #ffffff;
+        }
+        .nagoya-text-signs {
+          display: flex;
+          gap: 14px;
+          p {
+            font-family: Lato;
+            display: flex;
+            padding-top: 16px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            text-decoration: none;
+            color: #ffffff;
+          }
+          img {
+            padding-bottom: 16px;
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  }
+  .niigata {
+    width: 392px;
+    margin-left: 81px;
+    margin-top: 54px;
+
+    .image-wrapper-niigata {
+      width: 386px;
+      margin-top: 54px;
+      margin-bottom: 45px;
+      position: relative;
+
+      .image-info-niigata {
+        bottom: 0px;
+        display: flex;
+        gap: 157px;
+        margin-bottom: 3px;
+        position: absolute;
+        background-color: rgba(21, 24, 36, 0.6);
+        .niigata-text {
+          font-family: Lato;
+          padding-top: 16px;
+          padding-bottom: 15px;
+          margin-left: 25px;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0px;
+          text-align: left;
+          text-decoration: none;
+          color: #ffffff;
+        }
+        .niigata-text-signs {
+          display: flex;
+          gap: 14px;
+          p {
+            font-family: Lato;
+            display: flex;
+            padding-top: 16px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            text-decoration: none;
+            color: #ffffff;
+          }
+          img {
+            padding-bottom: 16px;
+            margin-right: 21px;
+          }
+        }
+      }
+    }
+  }
+  .osaka {
+    width: 392px;
+    margin-left: 81px;
+    margin-top: 54px;
+
+    .image-wrapper-osaka {
+      width: 386px;
+      margin-top: 54px;
+      margin-bottom: 45px;
+      position: relative;
+
+      .image-info-osaka {
+        bottom: 0px;
+        display: flex;
+        gap: 157px;
+        margin-bottom: 3px;
+        position: absolute;
+        background-color: rgba(21, 24, 36, 0.6);
+        .osaka-text {
+          font-family: Lato;
+          padding-top: 16px;
+          padding-bottom: 15px;
+          margin-left: 25px;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0px;
+          text-align: left;
+          text-decoration: none;
+          color: #ffffff;
+        }
+        .osaka-text-signs {
+          display: flex;
+          gap: 14px;
+          p {
+            font-family: Lato;
+            display: flex;
+            padding-top: 16px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            text-decoration: none;
+            color: #ffffff;
+          }
+          img {
+            padding-bottom: 16px;
+            margin-right: 26.9px;
+          }
+        }
+      }
+    }
+  }
+  .other-cities {
+    display: flex;
+  }
+  .saitama {
+    width: 392px;
+    margin-left: 81px;
+    margin-top: 54px;
+
+    .image-wrapper-saitama {
+      width: 386px;
+      margin-top: 54px;
+      margin-bottom: 45px;
+      position: relative;
+
+      .image-info-saitama {
+        bottom: 0px;
+        display: flex;
+        gap: 157px;
+        margin-bottom: 4px;
+        position: absolute;
+        background-color: rgba(21, 24, 36, 0.6);
+        .saitama-text {
+          font-family: Lato;
+          padding-top: 16px;
+          padding-bottom: 15px;
+          margin-left: 25px;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0px;
+          text-align: left;
+          text-decoration: none;
+          color: #ffffff;
+        }
+        .saitama-text-signs {
+          display: flex;
+          gap: 14px;
+          p {
+            font-family: Lato;
+            display: flex;
+            padding-top: 16px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            text-decoration: none;
+            color: #ffffff;
+          }
+          img {
+            padding-bottom: 16px;
+            margin-right: 18px;
+          }
+        }
+      }
+    }
+  }
+  .ueno {
+    width: 392px;
+    margin-left: 81px;
+    margin-top: 54px;
+
+    .image-wrapper-ueno {
+      width: 386px;
+      margin-top: 54px;
+      margin-bottom: 45px;
+      position: relative;
+
+      .image-info-ueno {
+        bottom: 0px;
+        display: flex;
+        gap: 157px;
+        margin-bottom: 4px;
+        position: absolute;
+        background-color: rgba(21, 24, 36, 0.6);
+        .ueno-text {
+          font-family: Lato;
+          padding-top: 16px;
+          padding-bottom: 15px;
+          margin-left: 25px;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0px;
+          text-align: left;
+          text-decoration: none;
+          color: #ffffff;
+        }
+        .ueno-text-signs {
+          display: flex;
+          gap: 14px;
+          p {
+            font-family: Lato;
+            display: flex;
+            padding-top: 16px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            text-decoration: none;
+            color: #ffffff;
+          }
+          img {
+            padding-bottom: 16px;
+            margin-right: 24px;
+          }
+        }
+      }
+    }
+  }
+  .shibuya {
+    width: 392px;
+    margin-left: 81px;
+    margin-top: 54px;
+
+    .image-wrapper-shibuya {
+      width: 386px;
+      margin-top: 54px;
+      margin-bottom: 45px;
+      position: relative;
+
+      .image-info-shibuya {
+        bottom: 0px;
+        display: flex;
+        gap: 157px;
+        margin-bottom: 4px;
+        position: absolute;
+        background-color: rgba(21, 24, 36, 0.6);
+        .shibuya-text {
+          font-family: Lato;
+          padding-top: 16px;
+          padding-bottom: 15px;
+          margin-left: 25px;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0px;
+          text-align: left;
+          text-decoration: none;
+          color: #ffffff;
+        }
+        .shibuya-text-signs {
+          display: flex;
+          gap: 14px;
+          p {
+            font-family: Lato;
+            display: flex;
+            padding-top: 16px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            text-decoration: none;
+            color: #ffffff;
+          }
+          img {
+            padding-bottom: 16px;
+            margin-right: 19px;
+          }
+        }
+      }
+    }
+  }
+
+  text {
+    width: 391px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #102746;
+  }
+  div button {
+    width: 118px;
+    margin-top: 31px;
+    background-color: #006dfe;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    padding: 12px 19px;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+  }
+}
+.video-section {
+  margin-top: 144px;
+  img {
+    width: 100%;
+  }
+}
+footer {
+  background-color: #0e1d28;
+  .inside-footer {
+    padding: 118px 167px 118px 194px;
+    display: flex;
+    justify-content: space-between;
+    img {
+      align-self: flex-start;
+    }
+    .menu-footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 139.5px;
+      .footer-columns {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        color: #ffffff;
+        a {
+          font-family: "Lato";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #ffffff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 956px) and (max-width: 1425px) {
+  .second-part {
+    .cities-japan {
+      flex-direction: row;
+      justify-content: center;
+    }
+    .main-cities {
+      flex-direction: column;
+    }
+    .other-cities {
+      flex-direction: column;
+    }
+  }
+}
+@media (min-width: 551px) and (max-width: 955px) {
+  .second-part {
+    .cities-japan {
+      justify-content: center;
+      align-items: center;
+    }
+    .main-cities {
+      flex-direction: column;
+    }
+    .other-cities {
+      flex-direction: column;
+    }
+  }
+}
+@media (min-width: 320px) and (max-width: 550px) {
+  .big-box header .navigation .navlinks {display: none;}
+  
+  .second-part {
+    .header{
+      margin-left: auto;
+      margin-right: auto;
+      font-family: Lato;
+      font-size: 20px;
+    }
+    .card-section .container{width: auto;};
+    .card-header{width: auto;};
+    .card-boxes{width: auto;};
+    .card-one{width: auto; 
+    img{width: auto;};
+     div{font-size: 14px;
+     line-height: 24px;
+    margin-bottom: 26px;};
+    p{font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;}
+    };
+    .card-two{width: auto; 
+    img{width: auto;};
+     div{font-size: 14px;
+     line-height: 24px;
+    margin-bottom: 26px;};
+    p{font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;}
+    }
+    .card-three{width: auto; 
+    img{width: auto;};
+     div{font-size: 14px;
+     line-height: 24px;
+    margin-bottom: 26px;};
+    p{font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;}
+    };
+    .get-inspired-section{width: auto;
+    margin-top: auto;};
+    .get-inspired-header{width: auto;}
+    .get-inspired-pic{gap: 10px;
+    flex-direction: column;}
+    .get-inspired-pics{
+      flex-direction: column;
+      gap: 10px;
+    margin-top: 10px;}
+    .cities-japan {
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 300px;
+      }
+      p img {
+        width: 15px;
+      }
+    }
+    .main-cities {
+      flex-direction: column;
+    }
+    .other-cities {
+      flex-direction: column;
+    }
+  }
+  .second-part .nagoya {
+    max-width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+    .image-wrapper .image-info {
+      bottom: 0px;
+      display: flex;
+      gap: 69.5px;
+      margin-bottom: 4.5px;
+      position: absolute;
+      background-color: rgba(21, 24, 36, 0.6);
+    }
+  }
+.second-part .niigata {
+    max-width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+    .image-wrapper-niigata .image-info-niigata {
+      bottom: 0px;
+      display: flex;
+      gap: 69.5px;
+      margin-bottom: 4.5px;
+      position: absolute;
+      background-color: rgba(21, 24, 36, 0.6);
+    }
+  }
+  .second-part .osaka {
+    max-width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+    .image-wrapper-osaka .image-info-osaka {
+      bottom: 0px;
+      display: flex;
+      gap: 69.5px;
+      margin-bottom: 4.5px;
+      position: absolute;
+      background-color: rgba(21, 24, 36, 0.6);
+    }
+  }
+  .second-part .saitama {
+    max-width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+    .image-wrapper-saitama .image-info-saitama {
+      bottom: 0px;
+      display: flex;
+      gap: 69.5px;
+      margin-bottom: 4.5px;
+      position: absolute;
+      background-color: rgba(21, 24, 36, 0.6);
+    }
+  }
+  .second-part .ueno {
+    max-width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+    .image-wrapper-ueno .image-info-ueno {
+      bottom: 0px;
+      display: flex;
+      gap: 69.5px;
+      margin-bottom: 4.5px;
+      position: absolute;
+      background-color: rgba(21, 24, 36, 0.6);
+    }
+  }
+  .second-part .shibuya {
+    max-width: 303px;
+    margin-left: auto;
+    margin-right: auto;
+    .image-wrapper-shibuya .image-info-shibuya {
+      bottom: 0px;
+      display: flex;
+      gap: 69.5px;
+      margin-bottom: 4.5px;
+      position: absolute;
+      background-color: rgba(21, 24, 36, 0.6);
+    }
+  }
+  .big-box .hero-section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    .discover-box {
+      width: 100%;
+      padding-left: 0px;
+      .input-button {
+        flex-direction: column;
+      }
+    }
+  }
+  footer .inside-footer {
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px 0 0 0;
+    .menu-footer {
+      gap: 0px;
+      padding: 20px
+    }
+    img {
+      align-self: center;
+    }
+  }
+}

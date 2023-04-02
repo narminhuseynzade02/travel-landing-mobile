@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.margin {
+    max-width: 80%;
+    margin: 30px auto;
+}
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #0e1d28;
+  .navigation {
+    width: 1078px;
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    .navlinks {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      a {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        text-decoration: none;
+        color: #ffffff;
+      }
+    }
+    div {
+      width: 490px;
+    }
+  }
+}
+main {
+    .images-box {
+        display: flex;
+        justify-content: space-between;
+       
+        img {
+            width: 28.8%;
+        }
+
+    }
+    p {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 24px;
+        background-color: #F2F2F2;
+        border: 1px solid #F2F2F2;
+        border-radius: 5px;
+        padding: 15px;
+    }
+  h1 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+footer {
+  background-color: #0e1d28;
+  .inside-footer {
+    padding: 118px 167px 118px 194px;
+    display: flex;
+    justify-content: space-between;
+    img {
+      align-self: flex-start;
+    }
+    .menu-footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 139.5px;
+      .footer-columns {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        color: #ffffff;
+        a {
+          font-family: "Lato";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #ffffff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+body {
+    background-image: url(./assets/China-Huangpu.jpg);
+    font-family: Lato;
+  }
+  
+  .signup-container {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 30px;
+  }
+  
+  form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  button {
+    background-color: #00bfff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #0099cc;
+  }
+  
+  .login {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .login span {
+    font-size: 14px;
+  }
+  
+  .login a {
+    color: #00bfff;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+  .travel-photo {
+    margin-top: 20px;
+    max-width: 100%;
+  }
+  
