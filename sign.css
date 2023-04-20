@@ -1,7 +1,34 @@
 body {
-    background-image: url(./assets/China-Huangpu.jpg);
-    font-family: Lato;
-  }
+  background-image: url(./assets/Hero.jpg);
+  font-family: Lato;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+.navigation {
+  width: 1078px;
+  padding-top: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+.navlinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.navigation div {
+  width: 490px;
+}
   
   .signup-container {
     margin: 0 auto;
@@ -74,4 +101,39 @@ body {
     margin-top: 20px;
     max-width: 100%;
   }
-  
+  footer {
+    background-color: #0e1d28;
+  }
+  footer .inside-footer {
+    padding: 118px 167px 118px 194px;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .inside-footer img {
+    align-self: flex-start;
+  }
+  footer .inside-footer .menu-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 139.5px;
+  }
+  footer .inside-footer .menu-footer .footer-columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  footer .inside-footer .menu-footer .footer-columns a {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    text-decoration: none;
+  }
