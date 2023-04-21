@@ -799,6 +799,9 @@ footer .inside-footer .menu-footer .footer-columns a {
     font-family: Lato;
     font-size: 20px;
   }
+  .second-part .card-section {
+    margin-top: auto;
+  }
   .second-part .card-section .container {
     width: auto;
   }
